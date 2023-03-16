@@ -1,7 +1,5 @@
-const btn = document.querySelector('button')
 
-
-btn.addEventListener('click', () => {
+window.addEventListener('load', () => {
     const video = document.querySelector('video')
     const options = {
         video: true
